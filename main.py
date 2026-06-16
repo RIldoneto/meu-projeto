@@ -1,10 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List
 
 app = FastAPI()
 
-# Banco de dados em memória para simplificar
 db = {}
 id_counter = 1
 
